@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 78.69 77.17">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: url(#linear-gradient-3);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        stroke: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        stroke: #fff;
+      }
+
+      .cls-4 {
+        stroke: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="31.25" y1="38.58" x2="78.69" y2="38.58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2e7cc0"/>
+      <stop offset="1" stop-color="#31b562"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0" y1="20.54" x2="47.44" y2="20.54" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0" y1="56.63" x2="47.44" y2="56.63" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Icono">
+    <g id="Blanco">
+      <g>
+        <polygon id="Hex3" class="cls-3" points="65.39 20.54 44.55 20.54 34.14 38.58 44.55 56.63 65.39 56.63 75.8 38.58 65.39 20.54"/>
+        <polygon id="Hex1" class="cls-3" points="34.14 2.5 13.3 2.5 2.89 20.54 13.3 38.58 34.14 38.58 44.55 20.54 34.14 2.5"/>
+        <polygon id="Hex2" class="cls-3" points="34.14 38.58 13.3 38.58 2.89 56.63 13.3 74.67 34.14 74.67 44.55 56.63 34.14 38.58"/>
+      </g>
+    </g>
+    <g id="Color1">
+      <g>
+        <polygon id="Hex3-2" data-name="Hex3" class="cls-2" points="65.39 20.54 44.55 20.54 34.14 38.58 44.55 56.63 65.39 56.63 75.8 38.58 65.39 20.54"/>
+        <polygon id="Hex1-2" data-name="Hex1" class="cls-4" points="34.14 2.5 13.3 2.5 2.89 20.54 13.3 38.58 34.14 38.58 44.55 20.54 34.14 2.5"/>
+        <polygon id="Hex2-2" data-name="Hex2" class="cls-1" points="34.14 38.58 13.3 38.58 2.89 56.63 13.3 74.67 34.14 74.67 44.55 56.63 34.14 38.58"/>
+      </g>
+    </g>
+  </g>
+</svg>
