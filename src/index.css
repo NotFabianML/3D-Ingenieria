@@ -87,3 +87,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .hover-link {
+    @apply hover:bg-accent hover:text-accent-foreground;
+  }
+}
