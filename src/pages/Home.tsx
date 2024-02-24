@@ -1,19 +1,21 @@
 import Navbar from '@/components/navbar'
+import About from '@/sections/About'
 import Hero from '@/sections/Hero'
+import WhyUs from '@/sections/WhyUs'
 
 const Home = () => {
   return (
     <main className='relative'>
         <Navbar />
 
-        <section className='bg-gradient-to-b from-blue3d to-green3d flex justify-center items-center py-10 bg-purple-500'>
+        <section className='bg-gradient-to-b from-blue3d to-green3d flex justify-center items-center py-10'>
             <Hero />
         </section>
-        <section>
-            about
+        <section className='flex justify-center items-center py-10'>
+            <About />
         </section>
-        <section>
-            why us
+        <section className='flex justify-center items-center py-10 bg-gray-100'>
+            <WhyUs />
         </section>
         <section>
             projects carrusel
