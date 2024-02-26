@@ -36,6 +36,8 @@ module.exports = {
         montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
+        dimWhite: "rgba(255, 255, 255, 0.7)",
+        dimBlue: "rgba(9, 151, 124, 0.1)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -97,9 +99,14 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
-      screens: {
-        "wide": "1440px"
-      },
+    },
+    screens: {
+      xs: "480px",
+      ss: "620px",
+      sm: "768px",
+      md: "1060px",
+      lg: "1200px",
+      xl: "1700px",
     },
   },
   plugins: [require("tailwindcss-animate")],
