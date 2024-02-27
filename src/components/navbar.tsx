@@ -10,14 +10,14 @@ const Navbar = () => {
     return (
         <nav className="w-full flex py-6 justify-between items-center navbar">
             <Link to={'/'}>
-                <img src={logo} alt="3D Ingenieria" className=" h-[45px]" />
+                <img src={logo} alt="3D Ingenieria" className="h-[45px]" />
             </Link>
 
-            <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+            <ul className="list-none md:flex hidden justify-end items-center flex-1">
                 {navLinks.map((nav: { id: string; title: string; }, index: number) => (
                     <li
                         key={nav.id}
-                        className={`font-poppins font-normal cursor-pointer text-[16px] ${active === nav.title ? "text-blue3d" : "text-black"
+                        className={`font-palanquin font-normal cursor-pointer text-[16px] ${active === nav.title ? "text-blue3d" : "text-black"
                             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
                         onClick={() => setActive(nav.title)}
                     >
@@ -27,8 +27,9 @@ const Navbar = () => {
                     </li>
                 ))}
             </ul>
-
-            <div className="sm:hidden flex flex-1 justify-end items-center">
+            
+            {/* Hamburger Navbar */}
+            <div className="md:hidden flex flex-1 justify-end items-center">
                 <img
                     src={toggle ? close : menu}
                     alt="menu"
@@ -38,13 +39,13 @@ const Navbar = () => {
 
                 <div
                     className={`${!toggle ? "hidden" : "flex"
-                        } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+                        } p-6 min-w-[140px] my-2 mx-auto rounded-xl bg-white w-[94%] absolute top-[100px] left-3 transform -translate-x-1/2 md:hidden slide-down z-50`}
                 >
-                    <ul className="list-none flex justify-end items-start flex-1 flex-col">
+                    <ul className="list-none flex justify-start items-start flex-col gap-4">
                         {navLinks.map((nav: { id: string; title: string }, index: number) => (
                             <li
                                 key={nav.id}
-                                className={`font-poppins font-medium cursor-pointer text-[16px] ${active === nav.title ? "text-white" : "text-dimWhite"
+                                className={`font-palanquin font-medium text-black cursor-pointer text-[16px] ${active === nav.title ? "text-black" : "text-black"
                                     } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                                 onClick={() => setActive(nav.title)}
                             >
@@ -57,6 +58,8 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
+
+
     );
 };
 

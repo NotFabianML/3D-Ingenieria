@@ -1,26 +1,27 @@
-import Navbar from '@/components/Navbar'
-import About from '@/sections/About'
-import Hero from '@/sections/Hero'
-import WhyUs from '@/sections/WhyUs'
-
-import styles from '../style'
-
+import { Navbar } from '@/components'
+import { About, Hero, WhyUs } from '@/sections'
 
 const Home = () => {
     return (
-        <main className='w-full overflow-hidden'>
-            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-                <div className={`${styles.boxWidth}`}>
+        <main className='bg-white w-full overflow-hidden'>
+            <section className='paddingX flexCenter z-50'>
+                <div className='boxWidth'>
                     <Navbar />
                 </div>
-            </div>
+            </section>
 
-            <section className='bg-gradient-to-b from-blue3d to-green3d flex justify-center items-center py-10'>
-                <Hero />
+            <section className='bg-blue-gradient flexStart'>
+                <div className='boxWidth'>
+                    <Hero />
+                </div>
             </section>
-            <section className='flex justify-center items-center py-10'>
-                <About />
+
+            <section className='flexStart paddingX'>
+                <div className='boxWidth'>
+                    <About />
+                </div>
             </section>
+
             <section className='flex justify-center items-center py-10 bg-gray-100'>
                 <WhyUs />
             </section>

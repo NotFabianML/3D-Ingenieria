@@ -89,6 +89,21 @@
   }
 }
 
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-down {
+  animation: slideDown 0.5s ease forwards;
+}
+
 @layer base {
   * {
     @apply border-border;
@@ -143,16 +158,22 @@
     @apply hover:bg-accent hover:text-accent-foreground;
   }
 
+  .bg-blue-gradient {
+    @apply bg-gradient-to-b from-blue3d to-green3d;
+  }
+
   /* style.js */
 
   .boxWidth {
-    @apply xl:max-w-[1280px] w-full
+    @apply xl:max-w-[1280px] w-full;
   }
 
   .heading2 {
-    @apply font-palanquin font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full
+    @apply font-palanquin font-semibold xs:text-[48px] text-[40px] text-black xs:leading-[76.8px] leading-[66.8px] w-full
   }
   .paragraph {
+    @apply font-montserrat font-normal text-gray-500 text-[18px] leading-[30.8px]
+  }.paragraph2 {
     @apply font-montserrat font-normal text-dimWhite text-[18px] leading-[30.8px]
   }
 
@@ -164,10 +185,10 @@
   }
 
   .paddingX {
-    @apply sm:px-16 px-6
+    @apply sm:px-32 px-8
   }
   .paddingY {
-    @apply sm:py-16 py-6
+    @apply sm:py-32 py-8
   }
   .padding {
     @apply sm:px-16 px-6 sm:py-12 py-4
@@ -179,5 +200,25 @@
   .marginY {
     @apply sm:my-16 my-6
   }
+
+  /* layout.js */
+
+   .section {
+    @apply flex md:flex-row flex-col paddingY
+   }
+    .sectionReverse {
+      @apply flex md:flex-row flex-col-reverse paddingY
+    }
+
+    .sectionImgReverse {
+      @apply flex-1 flex flexCenter md:mr-10 mr-0 md:mt-0 mt-10 relative
+    }
+    .sectionImg {
+      @apply flex-1 flex flexCenter md:ml-10 ml-0 md:mt-0 mt-10 relative
+    }
+
+    .sectionInfo {
+      @apply flex-1 flexStart flex-col
+    }
 
 }
