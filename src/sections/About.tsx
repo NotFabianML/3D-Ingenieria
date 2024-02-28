@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section id="product" className='sectionReverse'>
+    <section id="aboutus" className='sectionReverse'>
       <div className='sectionImgReverse'>
         <img src="https://placehold.co/600x500" alt="About us" className="w-[100%] h-[100%] relative z-[5]" />
       </div>

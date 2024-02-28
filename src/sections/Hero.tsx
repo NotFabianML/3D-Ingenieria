@@ -17,9 +17,11 @@ const Hero = () => {
                     Transformamos tus ideas en realidades con precisión y tecnología de vanguardia. Comprometidos con la excelencia y la sostenibilidad, llevamos tu negocio al próximo nivel.
                 </p>
                 <div className="flex gap-4 mt-8">
-                    <Button variant={"outline"} className="text-white rounded-full ss:text-[20px] text-[15px] ss:leading-[30px] leading-[20px] p-8">
-                        Ver más
-                    </Button>
+                    <a href='#aboutus'>
+                        <Button variant={"outline"} className="text-white rounded-full ss:text-[20px] text-[15px] ss:leading-[30px] leading-[20px] p-8">
+                            Ver más
+                        </Button>
+                    </a>
                     <Button variant={"secondary"} className="rounded-full ss:text-[20px] text-[15px] ss:leading-[30px] leading-[20px]  p-8">
                         Cotizar
                     </Button>
