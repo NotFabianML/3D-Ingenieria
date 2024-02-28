@@ -1,5 +1,5 @@
-import { WhyusCard } from "@/components"
-import { reasons } from "@/constants"
+import { WhyusCard } from "../components"
+import { reasons } from "../constants"
 
 const WhyUs = () => {
   return (
