@@ -51,14 +51,14 @@ export const reasons = [
   {
     id: "reason-1",
     content:
-      "Un historial rico en éxito, especializándonos en soluciones efectivas y eficientes para proyectos de diseño, modelación 3D y automatización industrial",
+      "Un historial rico en éxito, especializándonos en soluciones efectivas y eficientes para proyectos de diseño, modelación 3D y automatización industrial.",
     title: "Experiencia Comprobada",
     img: reason1,
   },
   {
     id: "reason-2",
     content:
-      "Empleamos las últimas tecnologías y metodologías para ofrecer soluciones innovadoras que impulsan la competitividad de nuestros clientes",
+      "Empleamos las últimas tecnologías y metodologías para ofrecer soluciones innovadoras que impulsan la competitividad de nuestros clientes.",
     title: "Innovación y Tecnología de Vanguardia",
     img: reason2,
   },
@@ -86,7 +86,7 @@ export const reasons = [
   {
     id: "reason-6",
     content:
-      "Ofrecemos soporte continuo post-entrega, garantizando que nuestros clientes maximicen los beneficios de nuestras soluciones a largo plazo",
+      "Ofrecemos soporte continuo post-entrega, garantizando que nuestros clientes maximicen los beneficios de nuestras soluciones a largo plazo.",
     title: "Soporte Integral",
     img: reason6,
   },
