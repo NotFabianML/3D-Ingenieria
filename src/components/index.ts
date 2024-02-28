@@ -1,9 +1,8 @@
-import Navbar from "./Navbar";
-import FeedbackCard from "./FeedbackCard";
-import WhyusCard from "./WhyusCard";
+import Navbar from "@/components/Navbar";
+// import FeedbackCard from "@/components/FeedbackCard";
+import WhyusCard from "@/components/WhyusCard";
 
 export { 
     Navbar,
-    FeedbackCard,
     WhyusCard,
 };
