@@ -22,8 +22,10 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className='flex justify-center items-center py-10 bg-gray-100'>
-                <WhyUs />
+            <section className='flexCenter paddingX bg-gray-100'>
+                <div className='boxWidth'>
+                    <WhyUs />
+                </div>
             </section>
             <section>
                 projects carrusel

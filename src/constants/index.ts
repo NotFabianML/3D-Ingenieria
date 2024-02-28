@@ -1,4 +1,4 @@
-import { facebook, instagram, linkedin, twitter, send, logo  } from "../assets";
+import { facebook, instagram, linkedin, twitter, send, logo, reason1, reason2, reason3, reason4, reason5, reason6  } from "../assets";
 
 export const navLinks = [
   {
@@ -47,30 +47,48 @@ export const features = [
   },
 ];
 
-export const feedback = [
+export const reasons = [
   {
-    id: "feedback-1",
+    id: "reason-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: logo,
+      "Un historial rico en éxito, especializándonos en soluciones efectivas y eficientes para proyectos de diseño, modelación 3D y automatización industrial",
+    title: "Experiencia Comprobada",
+    img: reason1,
   },
   {
-    id: "feedback-2",
+    id: "reason-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: logo,
+      "Empleamos las últimas tecnologías y metodologías para ofrecer soluciones innovadoras que impulsan la competitividad de nuestros clientes",
+    title: "Innovación y Tecnología de Vanguardia",
+    img: reason2,
   },
   {
-    id: "feedback-3",
+    id: "reason-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: logo,
+      "Garantizamos la excelencia en cada proyecto, cumpliendo y superando las expectativas con estrictos controles de calidad.",
+    title: "Compromiso con la Calidad",
+    img: reason3,
+  },
+  {
+    id: "reason-4",
+    content:
+      "Promovemos soluciones que benefician tanto a las empresas como al medio ambiente, comprometidos con un futuro más sostenible.",
+    title: "Enfoque Sostenible",
+    img: reason4,
+  },
+  {
+    id: "reason-5",
+    content:
+      "Adaptamos nuestros servicios a las necesidades únicas de cada cliente, asegurando soluciones a medida y alineadas con sus objetivos.",
+    title: "Servicio Personalizado",
+    img: reason5,
+  },
+  {
+    id: "reason-6",
+    content:
+      "Ofrecemos soporte continuo post-entrega, garantizando que nuestros clientes maximicen los beneficios de nuestras soluciones a largo plazo",
+    title: "Soporte Integral",
+    img: reason6,
   },
 ];
 
