@@ -50,6 +50,13 @@
     --ring: 0 0% 3.9%;
 
     --radius: 0.5rem;
+
+    --black-gradient: linear-gradient(
+      144.39deg,
+      #ffffff -278.56%,
+      rgba(46 124 192 / 0.20) 20%,
+      rgba(47 181 98 / 0.20) 91.61%
+    );
   }
 
   .dark {
@@ -86,7 +93,19 @@
     --border: 0 0% 14.9%;
     --input: 0 0% 14.9%;
     --ring: 0 0% 83.1%;
+
+    --black-gradient: linear-gradient(
+      144.39deg,
+      #ffffff -278.56%,
+      #2e7cc0 -78.47%,
+      #2fb562 91.61%
+    );
   }
+}
+
+.whyus-card:hover {
+  background: var(--black-gradient);
+  color: white;
 }
 
 @keyframes slideDown {
@@ -103,6 +122,22 @@
 .slide-down {
   animation: slideDown 0.5s ease forwards;
 }
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-15%);
+    opacity: 0;
+  }
+}
+
+.slide-up {
+  animation: slideUp 0.5s ease forwards;
+}
+
 
 @layer base {
   * {

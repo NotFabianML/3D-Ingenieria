@@ -13,16 +13,16 @@ const Hero = () => {
                     </h1>
                 </div>
 
-                <p className={`paragraph2 font-montserrat max-w-[700px] mt-5`}>
+                <p className={`paragraph2 tracking-wider font-montserrat max-w-[700px] mt-5`}>
                     Transformamos tus ideas en realidades con precisión y tecnología de vanguardia. Comprometidos con la excelencia y la sostenibilidad, llevamos tu negocio al próximo nivel.
                 </p>
                 <div className="flex gap-4 mt-8">
                     <a href='#aboutus'>
-                        <Button variant={"outline"} className="text-white rounded-full ss:text-[20px] text-[15px] ss:leading-[30px] leading-[20px] p-8">
+                        <Button variant={"outline"} className="text-white rounded-full ss:text-[18px] text-[15px] ss:leading-[30px] leading-[20px] px-7 py-4">
                             Ver más
                         </Button>
                     </a>
-                    <Button variant={"secondary"} className="rounded-full ss:text-[20px] text-[15px] ss:leading-[30px] leading-[20px]  p-8">
+                    <Button variant={"secondary"} className="rounded-full ss:text-[18px] text-[15px] ss:leading-[30px] font-normal leading-[20px] px-7 py-4">
                         Cotizar
                     </Button>
                 </div>

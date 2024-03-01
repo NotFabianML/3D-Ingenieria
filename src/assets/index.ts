@@ -9,12 +9,12 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 
-import reason1 from "./reason-1.png";
-import reason2 from "./reason-2.png";
-import reason3 from "./reason-3.png";
-import reason4 from "./reason-4.png";
-import reason5 from "./reason-5.png";
-import reason6 from "./reason-6.png";
+import reason1 from "./reason-1.svg";
+import reason2 from "./reason-2.svg";
+import reason3 from "./reason-3.svg";
+import reason4 from "./reason-4.svg";
+import reason5 from "./reason-5.svg";
+import reason6 from "./reason-6.svg";
 
 export {
   logo,
