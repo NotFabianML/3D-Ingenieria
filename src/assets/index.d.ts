@@ -1,20 +1,20 @@
-import logo from "./logo.svg";
-import send from "./Send.svg";
-import menu from "./menu.svg";
-import close from "./close.svg";
-import google from "./google.svg";
-import arrowUp from "./arrow-up.svg";
-import facebook from "./facebook.svg";
-import instagram from "./instagram.svg";
-import linkedin from "./linkedin.svg";
-import twitter from "./twitter.svg";
+import logo from "@/assets/logo.svg";
+import send from "@/assets/Send.svg";
+import menu from "@/assets/menu.svg";
+import close from "@/assets/close.svg";
+import google from "@/assets/google.svg";
+import arrowUp from "@/assets/arrow-up.svg";
+import facebook from "@/assets/facebook.svg";
+import instagram from "@/assets/instagram.svg";
+import linkedin from "@/assets/linkedin.svg";
+import twitter from "@/assets/twitter.svg";
 
-import reason1 from "./reason-1.svg";
-import reason2 from "./reason-2.svg";
-import reason3 from "./reason-3.svg";
-import reason4 from "./reason-4.svg";
-import reason5 from "./reason-5.svg";
-import reason6 from "./reason-6.svg";
+import reason1 from "@/assets/reason-1.svg";
+import reason2 from "@/assets/reason-2.svg";
+import reason3 from "@/assets/reason-3.svg";
+import reason4 from "@/assets/reason-4.svg";
+import reason5 from "@/assets/reason-5.svg";
+import reason6 from "@/assets/reason-6.svg";
 
 export {
   logo,

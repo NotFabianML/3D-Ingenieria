@@ -1,5 +1,5 @@
-import Navbar from "./Navbar";
-import WhyusCard from "./WhyusCard";
+import Navbar from "@/components/Navbar";
+import WhyusCard from "@/components/WhyusCard";
 
 export { 
     Navbar,

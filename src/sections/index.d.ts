@@ -1,6 +1,6 @@
-import Hero from './Hero'
-import About from './About'
-import WhyUs from './WhyUs'
+import Hero from '@/sections/Hero'
+import About from '@/sections/About'
+import WhyUs from '@/sections/WhyUs'
 
 export {
     Hero,
