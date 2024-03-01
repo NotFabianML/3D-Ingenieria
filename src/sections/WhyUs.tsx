@@ -1,4 +1,4 @@
-import { WhyusCard } from "@/components"
+import WhyusCard from "@/components/WhyusCard";
 import { reasons } from "@/constants"
 
 const WhyUs = () => {
