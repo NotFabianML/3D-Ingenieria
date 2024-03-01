@@ -1,4 +1,4 @@
-import { Navbar } from '../components'
+import Navbar from '../components/Navbar'
 import { About, Hero, WhyUs } from '../sections'
 
 const Home = () => {
