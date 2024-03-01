@@ -1,4 +1,5 @@
-import { Home, About } from '@/pages'
+import Home from './pages/Home'
+import About from './pages/About'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
