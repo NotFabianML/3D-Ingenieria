@@ -1,7 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import { close, logo, menu } from "@/assets";
-import { navLinks } from "@/constants";
+
+
 import { Link, useLocation } from "react-router-dom";
+import { close, logo, menu } from "../assets";
+import { navLinks } from "../constants";
 
 const Navbar = () => {
 

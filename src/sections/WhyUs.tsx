@@ -1,5 +1,6 @@
-import WhyusCard from "@/components/WhyusCard";
-import { reasons } from "@/constants"
+import WhyusCard from "../components/WhyusCard";
+import { reasons } from "../constants";
+
 
 const WhyUs = () => {
   return (
