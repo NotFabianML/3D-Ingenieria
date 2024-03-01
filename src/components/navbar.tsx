@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import { close, logo, menu } from "../assets";
-import { navLinks } from "../constants";
+import { close, logo, menu } from "@/assets";
+import { navLinks } from "@/constants";
 import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
