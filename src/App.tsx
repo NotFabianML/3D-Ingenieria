@@ -1,4 +1,4 @@
-import { Home, About } from '@/pages'
+import { Home } from '@/pages'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/about" element={<About />} /> */}
       </Routes>
     </BrowserRouter>
   )
